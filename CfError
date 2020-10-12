@@ -1,0 +1,26 @@
+[10:14:09 INFO]: hiddendragon98 issued server command: /cf 100$
+[10:14:09 INFO]: /cf
+org.bukkit.command.CommandException: Unhandled exception executing command 'cf' in plugin CoinFlip v1.3.2
+[10:14:09 ERROR]: null
+at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1401) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:648) ~[Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1236) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_252]
+at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_252]
+at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+Caused by: java.lang.NullPointerException
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+at com.thepurplehoser.coinflip.d.a(d.java:35) ~[?:?]
+at com.thepurplehoser.coinflip.b.b(b.java:147) ~[?:?]
+at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[Spigot-1.12.2.jar:git-Spigot-79a30d7-acbc348]
+at com.thepurplehoser.coinflip.b.onCommand(b.java:64) ~[?:?]
+... 15 more
